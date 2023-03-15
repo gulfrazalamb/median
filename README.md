@@ -1,20 +1,26 @@
-# median
-Median Calculator Tool
-The Median Calculator Tool is a simple and efficient program designed to help you calculate the median value of a set of numbers. Whether you need to find the median value of a large dataset or just a few numbers, this tool can save you time and hassle.
+# Median Tool
 
-With a user-friendly interface, the tool allows you to input your dataset and get an accurate median calculation in a matter of seconds. The program is optimized to handle datasets of various sizes and can handle both numerical and non-numerical data.
+This is a Bash script that calculates the median of a comma-separated list of numbers. It uses the median formula to find the median of the list, and sorts the list in ascending order. The script can handle lists with an odd or even number of elements, and outputs the result to the terminal.
+Usage
 
-In addition to providing the median value, the tool also displays the input dataset, as well as the number of values, minimum and maximum values, and the range. This can help you better understand your data and make more informed decisions based on the results.
+To use the median tool, follow these steps:
 
-Whether you're a student, researcher, or business professional, the Median Calculator Tool is a valuable asset for anyone who needs to analyze and understand numerical data. The tool is available for free on GitHub and can be easily downloaded and installed on any computer.
+    1. Open a terminal window and navigate to the directory where the median.sh script is located.
+    2. Type ./median.sh and press Enter.
+    3. You will be prompted to enter a comma-separated list of numbers. Enter the list of numbers and press Enter.
+    4. The script will calculate the median of the list and display it on the terminal.
 
-Key Features:
+Example
 
-    Calculates the median value of a dataset
-    Handles both numerical and non-numerical data
-    Displays input dataset, number of values, minimum and maximum values, and range
-    User-friendly interface
-    Supports datasets of various sizes
-    Available for free on GitHub
+Suppose you have a list of numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. To find the median of this list using the median tool, do the following:
 
-Overall, the Median Calculator Tool is a reliable and efficient solution for calculating the median value of a dataset. With its intuitive interface and accurate calculations, the tool can help you save time and make more informed decisions based on your data.
+    1. Open a terminal window and navigate to the directory where the median.sh script is located.
+    2. Type ./median.sh and press Enter.
+    3. You will be prompted to enter a comma-separated list of numbers. Enter the list of numbers 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 and press Enter.
+    4. The script will calculate the median of the list and display it on the terminal: The median is: 55.
+
+Notes
+
+    The median tool only accepts comma-separated lists of numbers. Make sure to separate each number with a comma and no spaces.
+    The median tool only works with integers. It does not support decimal numbers.
+    The median tool assumes that the input is valid. It does not perform input validation or error handling. Make sure to enter a valid list of numbers, otherwise the script may produce unexpected results or fail.
